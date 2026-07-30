@@ -1,0 +1,19 @@
+FUNCTION AStarStep()
+ (node,gScore)=priorityQueue.Dequeue()  
+ IF node IN visited RETURN "ALREADY SEARCHED"
+ ADD node TO visited
+ IF node = endNode:
+  foundEnd = True
+  RETURN "Found End"
+
+ neighbors = GetNodeNeighbors(node)
+ FOR EACH (neighbor,edgeLength) IN neighbors:
+  newGScore=gScore+edgeLength
+  IF newGScore < gScores[neighbor]:
+   gScores[neighbor]=newGScore
+   hCost = Heuristic(neighbor, endNode)
+   fScores[neighbor]=newGScore+hCost
+   parent[neighbor]=node
+   priorityQueue.Enqueue((neighbor))
+    
+ RETURN "Continue Searching"

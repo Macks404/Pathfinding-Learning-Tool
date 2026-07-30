@@ -1,0 +1,19 @@
+FUNCTION DijkstraStep()
+ (node,distance)=priorityQueue.Dequeue()
+    
+ IF node IN visited RETURN "ALREADY SEARCHED"
+ ADD node TO visited
+    
+ IF node = endNode:
+  foundEnd = True
+  RETURN "Found End"
+ 
+ neighbors = GetNodeNeighbors(currentNode)
+ FOR EACH (neighborNode,edgeLength) IN neighbors:
+  newDist = distance + edgeLength
+  IF newDist < distances[neighborNode]:
+   distances[neighborNode] = newDist
+   parent[neighborNode] = currentNode
+   priorityQueue.Enqueue((neighborNode, newDist)
+    
+ RETURN "Continue Searching"

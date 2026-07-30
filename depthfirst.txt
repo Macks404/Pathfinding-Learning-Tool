@@ -1,0 +1,19 @@
+FUNCTION DepthFirstStep()
+ node=stack.Pop()
+    
+ IF node IN visited RETURN "ALREADY SEARCHED"
+ ADD node TO visited
+    
+
+ IF node = endNode:
+  foundEnd = True
+  RETURN "Found End"
+    
+ neighbors = GetNodeNeighbors(node)
+ FOR EACH (neighborNode) IN neighbors:
+  IF neighborNode NOT IN visited AND 
+  neighborNode NOT IN stack:
+   dfsStack.Push(neighborNode)
+   
+
+ RETURN "Continue Searching"
