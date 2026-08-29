@@ -10,7 +10,7 @@ event log or the algorithm's pseudocode with the current line highlighted.
 
 ## Demo
 ![Alt text](/ss1.png?raw=true "ss1")
-![Alt text](/ss2.png?raw=true "ss2")
+![Alt text](/ss3.png?raw=true "ss2")
 
 ## Features
 
