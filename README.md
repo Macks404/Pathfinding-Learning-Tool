@@ -8,6 +8,10 @@ end node, and then animates **Depth-First Search**, **Dijkstra's Algorithm**, or
 as it searches for a route. Alongside the animation you can watch either a running
 event log or the algorithm's pseudocode with the current line highlighted.
 
+## Demo
+![Alt text](/relative/path/to/ss1.png?raw=true "ss1")
+![Alt text](/relative/path/to/ss2.png?raw=true "ss2")
+
 ## Features
 
 - **Three algorithms** - Depth-First Search, Dijkstra's Algorithm, and A\*.
