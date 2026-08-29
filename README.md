@@ -9,8 +9,8 @@ as it searches for a route. Alongside the animation you can watch either a runni
 event log or the algorithm's pseudocode with the current line highlighted.
 
 ## Demo
-![Alt text](/relative/path/to/ss1.png?raw=true "ss1")
-![Alt text](/relative/path/to/ss2.png?raw=true "ss2")
+![Alt text](/ss1.png?raw=true "ss1")
+![Alt text](/ss2.png?raw=true "ss2")
 
 ## Features
 
