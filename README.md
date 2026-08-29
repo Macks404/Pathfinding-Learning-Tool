@@ -1,7 +1,7 @@
 # Pathfinding Learning Tool
 
 An interactive desktop application for learning how graph search algorithms explore a map.
-Built with Pygame as an A-Level Computer Science NEA project.
+Built with Pygame as a 2025 A-Level Computer Science NEA project.
 
 The tool loads a real road network (exported from OpenStreetMap), lets you pick a start and
 end node, and then animates **Depth-First Search**, **Dijkstra's Algorithm**, or **A\***
